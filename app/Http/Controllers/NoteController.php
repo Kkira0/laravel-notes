@@ -19,6 +19,11 @@ class NoteController extends Controller
     public function create(){
         return view('notes.create');
     }
+
+    public function show($id){
+        $notes = Note::find($id);
+        return view('notes.show', ['notes' => $notes]);
+    }
  
 
     public function store(Request $request){

@@ -7,9 +7,9 @@
 </head>
 <body>
 <h1>Single post view</h1>
-    <p>Title: {{ $note->title }}</p>
-    <p>Content: {{ $note->content }}</p>
+    <p>Title: {{ $notes->title }}</p>
+    <p>Content: {{ $notes->content }}</p>
 
-    <a href="/notes">Back To All Posts</a>
+    <a href="/notes">Back To All Notes</a>
 </body>
 </html>
