@@ -15,10 +15,12 @@
 
         <br>
 
-        <label for="content">content: </label>
-        <textarea name="content" id="content" ></textarea>
+        <label for="content">Content: </label>
+        <textarea name="content" id="content" name="content" ></textarea>
 
         <input type="submit" value="Create">
+        <br>
+        <a href="/books">Back to Books</a>
 
     </form> 
     
